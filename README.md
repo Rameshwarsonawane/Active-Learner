@@ -29,7 +29,7 @@ Icons: Font Awesome
 1. Clone the repository
 Bash
 
-git clone https://github.com/Rameshwarsonawane/Active-Learner.git
+git clone https://github.com/Rameshwarsonawane/Active-earner.git
 cd active-learner
 2. Install dependencies
 Bash
@@ -65,3 +65,4 @@ This project is licensed under the MIT License.
 
 
 Made with ❤️ by Rameshwar Sonawane
+
