@@ -1,7 +1,7 @@
-
+'use client';
 import React from 'react';
 import { User, ViewPath } from '../lib/types';
-
+import "./globals.css";
 export const Navbar: React.FC<{ 
   user: User | null; 
   onLogout: () => void; 

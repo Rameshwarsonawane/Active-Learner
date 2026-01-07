@@ -5,6 +5,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { db, supabase } from '../../../../../lib/supabaseClient.ts';
 import { Lesson, LessonStatus, Badge } from '../../../../../lib/types.ts';
 
+
 const PASS_THRESHOLD = 60;
 
 export const LessonPlayer: React.FC<{ 

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../../../lib/supabaseClient.ts';
 import { Course, Lesson, LessonProgress, LessonStatus, Badge } from '../../../lib/types.ts';
 
+
 export const CourseDetail: React.FC<{ 
   courseId: string, 
   userId: string, 

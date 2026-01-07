@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { User, Course, Enrollment, LessonProgress, LessonStatus, Lesson } from '../../lib/types';
 import { db, supabase } from '../../lib/supabaseClient';
 
+
 export const CoursesList: React.FC<{ 
   user: User, 
   onSelectCourse: (id: string) => void 

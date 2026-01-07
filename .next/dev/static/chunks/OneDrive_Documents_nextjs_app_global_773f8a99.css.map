@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sonwa/OneDrive/Documents/nextjs/app/global.css"],"sourcesContent":["@import \"tailwindcss\";"],"names":[],"mappings":""}}]
+}
