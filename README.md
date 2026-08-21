@@ -1,77 +1,95 @@
-<<<<<<< HEAD
-=======
-🎓 Active Learner App
-"Empowering your learning journey with data-driven progress."
+# Active Learner
 
-Active Learner is a modern e-learning dashboard built using Next.js and Supabase. It provides students with a seamless way to track course completions, monitor scores, and earn verified achievement badges.
+Active Learner is an online course platform where users can browse available courses, enroll in the ones they're interested in, and track their learning progress from start to finish. Once a course is completed, the platform automatically generates a certificate for the learner — making the whole learning journey simple and rewarding.
 
-🚀 Features
-Smart Dashboard: View lessons completed, active enrollments, and average scores at a glance.
+🔗 **GitHub Repo:** [Active Learner](https://github.com/Rameshwarsonawane/Active-Learner)
+🌐 **Live Demo:** [activelearner.vercel.app](https://activelearner.vercel.app/)
+🔑 **Demo Login:** `sonwanerameshwar@gmail.com` / `1234567890`
 
-Progress Tracking: Visualize course completion percentages with interactive progress bars.
+---
 
-Achievement System: Earn and display "Verified Alumnus" badges upon course completion.
+## 📌 About the Project
 
-Real-time Sync: Powered by Supabase for instantaneous progress updates and data security.
+Active Learner was built to explore what a real-world e-learning platform looks like under the hood — from course browsing and enrollment to progress tracking and certificate generation. It focuses on giving learners a smooth, motivating experience while keeping the codebase clean and scalable using modern web technologies.
 
-Solarized UI: A sleek, developer-friendly dark theme designed for focus and clarity.
+---
 
-🛠️ Tech Stack
-Framework: Next.js 15 (App Router)
+## ✨ Features
 
-Database & Backend: Supabase
+- **Course Browsing** – Users can explore a catalog of available courses.
+- **Course Enrollment** – Simple, one-click enrollment into any course.
+- **Progress Tracking** – Learners can see how far along they are in a course.
+- **Auto-Generated Certificates** – Once a course is completed, a certificate is automatically generated for the learner.
+- **Secure Authentication** – Login system powered by Supabase to manage user sessions safely.
+- **Responsive Design** – Fully responsive UI built with Tailwind CSS for a smooth experience on any device.
 
-Language: TypeScript
+---
 
-Styling: Tailwind CSS
+## 🛠️ Tech Stack
 
-Icons: Font Awesome
+**Frontend:**
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-🏁 Getting Started
+**Backend & Database:**
+- Supabase (Auth + Database)
+
+**Deployment:**
+- Vercel
+
+---
+
+## ⚙️ How It Works
+
+1. Users sign up or log in through Supabase authentication.
+2. They browse the list of available courses on the dashboard.
+3. Users enroll in any course they're interested in.
+4. As they progress, their completion status is tracked and updated.
+5. Once a course is fully completed, a certificate is automatically generated for the learner.
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
 1. Clone the repository
-Bash
-
-git clone https://github.com/your-username/active-learner.git
-cd active-learner
+   ```bash
+   git clone https://github.com/Rameshwarsonawane/Active-Learner.git
+   ```
 2. Install dependencies
-Bash
-
-npm install
-3. Setup Environment Variables
-Create a .env.local file in the root directory and add your Supabase credentials:
-
-Plaintext
-
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```bash
+   cd Active-Learner
+   npm install
+   ```
+3. Set up your Supabase project and add your credentials to a `.env.local` file:
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 4. Run the development server
-Bash
+   ```bash
+   npm run dev
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-npm run dev
-Open http://localhost:3000 in your browser to see the result.
+---
 
-📂 Project Structure
-Plaintext
+## 📽️ Demo
 
-├── app/              # Next.js App Router (Layouts & Pages)
-├── components/       # Reusable UI Components (Auth, Dashboard)
-├── lib/              # Supabase client and DB utility functions
-├── public/           # Static assets (images, icons)
-└── types/            # TypeScript interfaces and definitions
-📈 Roadmap
-[ ] User Profile Picture Upload.
+Try it live here: [Active Learner](https://activelearner.vercel.app/)
+Use the demo credentials above to log in and explore the platform.
 
-[ ] Dark/Light Mode Toggle.
+---
 
-[ ] Video Player integration for Lessons.
+## 👤 Author
 
-[ ] Peer Comparison / Leaderboard.
+**Rameshwar Sonawane**
+📧 sonawanerameshwar1104@gmail.com
 
-🤝 Contributing
-Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a Pull Request.
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
 
-Made with ❤️ by rameshwar sonawane
->>>>>>> ff6d07d (edit readme file)
+This project is open for learning and reference purposes. Feel free to explore the code and reach out if you have any questions.
